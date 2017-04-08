@@ -3,7 +3,7 @@
   (general
     (links 7)
     (no_connects 0)
-    (area 130.493714 66.286999 166.432286 135.558601)
+    (area 136.996099 74.448599 160.006101 135.558601)
     (thickness 1.6)
     (drawings 45)
     (tracks 60)
@@ -64,8 +64,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 1.000000)
       (plotframeref false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory plots/plot-1.0/))
   )
 
   (net 0 "")
@@ -503,6 +503,36 @@
     (polygon
       (pts
         (xy 137.0711 91.0336) (xy 137.0711 135.4836) (xy 144.6911 135.4836) (xy 144.6911 91.0336)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 58E97282) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 162.306 138.938) (xy 135.382 138.938) (xy 135.255 91.059) (xy 162.306 91.059)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 162.179 138.811) (xy 135.508664 138.811) (xy 135.382338 91.186) (xy 162.179 91.186)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 58E97282) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 162.306 138.938) (xy 135.382 138.938) (xy 135.255 91.059) (xy 162.306 91.059)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 162.179 138.811) (xy 135.508664 138.811) (xy 135.382338 91.186) (xy 162.179 91.186)
       )
     )
   )

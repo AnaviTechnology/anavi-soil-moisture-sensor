@@ -122,12 +122,12 @@
     (uvia_drill 0.1)
   )
 
-  (module Pin_Headers:Pin_Header_Angled_1x03 (layer Top) (tedit 58E959FF) (tstamp 58E9C7A3)
+  (module Pin_Headers:Pin_Header_Angled_1x03 (layer Top) (tedit 58EB773D) (tstamp 58E9C7A3)
     (at 145.923 76.073 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58E94976)
-    (fp_text reference P1 (at 0 -5.1 90) (layer F.SilkS)
+    (fp_text reference P1 (at 0.6985 -2.413 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_01X03 (at 0 -3.1 90) (layer F.Fab) hide
@@ -218,11 +218,11 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_2.5mm_Pad (layer Top) (tedit 58E959F8) (tstamp 58E9CE83)
+  (module Mounting_Holes:MountingHole_2.5mm_Pad (layer Top) (tedit 58EB7724) (tstamp 58E9CE83)
     (at 140.462 77.724)
     (descr "Mounting Hole 2.5mm")
     (tags "mounting hole 2.5mm")
-    (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.5mm_Pad (at 0 3.5) (layer F.Fab) hide
@@ -233,11 +233,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.5mm_Pad (layer Top) (tedit 58E95BC9) (tstamp 58E9CE97)
+  (module Mounting_Holes:MountingHole_2.5mm_Pad (layer Top) (tedit 58EB772D) (tstamp 58E9CE97)
     (at 156.464 77.724)
     (descr "Mounting Hole 2.5mm")
     (tags "mounting hole 2.5mm")
-    (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.5mm_Pad (at 0 3.5) (layer F.Fab) hide
@@ -357,7 +357,7 @@
   (gr_text "ANAVI Soil Moisture Sensor" (at 150.495 86.0425) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
-  (gr_text "S - +" (at 148.844 79.248) (layer F.SilkS)
+  (gr_text "S - +" (at 148.7805 79.248) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_arc (start 139.6111 77.0636) (end 139.6111 74.5236) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 562A5FC88FB0))

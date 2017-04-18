@@ -3,7 +3,7 @@
   (general
     (links 7)
     (no_connects 0)
-    (area 136.996099 74.448599 160.006101 135.558601)
+    (area 130.493714 65.143999 166.432286 135.788)
     (thickness 1.6)
     (drawings 45)
     (tracks 59)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory plots/plot-1.0/))
+      (outputdirectory plots/plot-1.1/))
   )
 
   (net 0 "")
@@ -320,7 +320,7 @@
   )
 
   (module Wire_Pads:SolderWirePad_single_0-8mmDrill (layer Top) (tedit 58F00889) (tstamp 58EB6E89)
-    (at 156.083 113.411)
+    (at 156.083 113.284)
     (path /58E9643C)
     (fp_text reference P3 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
